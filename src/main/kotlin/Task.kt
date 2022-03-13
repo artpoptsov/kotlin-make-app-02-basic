@@ -1,4 +1,4 @@
-
+// Task #1
 fun main() {
 
     val amount = 100_00

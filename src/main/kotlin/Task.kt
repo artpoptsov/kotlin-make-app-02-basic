@@ -1,9 +1,9 @@
 // Task #2
 fun main() {
 
-    val likes = 61
+    val likes = 111
 
-    val description = if (likes * 10 - (likes / 10) * 100 == 10) "человеку" else "людям"
+    val description = if (likes % 10  == 1 && likes % 100 != 11 ) "человеку" else "людям"
 
     println("Понравилось $likes $description")
 
